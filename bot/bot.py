@@ -7,7 +7,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 
 from aiogram.client.session.aiohttp import AiohttpSession
-session = AiohttpSession(proxy="http://proxuy.server:3128")
+session = AiohttpSession(proxy="http://proxy.server:3128")
 
 from handlers import router as handlers_router
 
